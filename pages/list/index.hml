@@ -1,7 +1,0 @@
-<swiper vertical=true style="height: 466px; width:466px;">
-    <div for="{{discoveredFiles}}" class="test">
-        <div onclick="hop({{$item.uri}})" class="test">
-            <text>{{$item.filename}}</text>
-        </div>
-    </div>
-</swiper>

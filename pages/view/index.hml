@@ -1,6 +1,0 @@
-<div class="scene">
-    <div class="qr">
-        <qrcode value="{{QRString}}" class="qr"></qrcode>
-    </div>
-    <div class="button6 color-primary" onclick="back"><text>Back</text></div>
-</div>
