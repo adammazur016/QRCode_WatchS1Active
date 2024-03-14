@@ -1,0 +1,5 @@
+<swiper vertical=true style="height: 466px; width:466px;">
+    <div style='width: 466px; height: 300px; display: {{display}}; margin-left: 83px;'>
+        <qrcode value="https://mega.nz/file/LdNRxb5K#BuVKDMxvYT8D_3E-athguxaWZrSAvg4I1V-1PYEplFQ" class="qr" style="margin-left: 83px;"></qrcode>
+    </div>
+</swiper>

@@ -1,0 +1,6 @@
+<swiper vertical=true style="height: 466px; width:466px;">
+
+    <div class="test">
+        <text>{{title}}</text>
+    </div>
+</swiper>
