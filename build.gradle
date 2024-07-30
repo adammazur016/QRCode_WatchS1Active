@@ -1,7 +1,7 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
-apply plugin: 'com.xinan.maios.app'
+apply plugin: 'com.huawei.ohos.app'
 
-maios {
+ohos {
     compileSdkVersion 3
     defaultConfig {
         compatibleSdkVersion 3
@@ -11,25 +11,25 @@ maios {
 buildscript {
     repositories {
         maven {
-            url 'https://mirrors.xinancloud.com/repository/maven/'
+            url 'https://mirrors.huaweicloud.com/repository/maven/'
         }
         maven {
-            url 'https://developer.xinan.com/repo/'
+            url 'https://developer.huawei.com/repo/'
         }
 		jcenter()
     }
     dependencies {
-        classpath 'com.xinan.maios:hap:2.4.1.4'
+        classpath 'com.huawei.ohos:hap:2.4.1.4'
     }
 }
 
 allprojects {
     repositories {
         maven {
-            url 'https://mirrors.xinancloud.com/repository/maven/'
+            url 'https://mirrors.huaweicloud.com/repository/maven/'
         }
         maven {
-            url 'https://developer.xinan.com/repo/'
+            url 'https://developer.huawei.com/repo/'
         }
 		jcenter()
     }

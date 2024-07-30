@@ -1,5 +1,5 @@
-apply plugin: 'com.xinan.maios.hap'
-maios {
+apply plugin: 'com.huawei.ohos.hap'
+ohos {
     compileSdkVersion 3
     defaultConfig {
         compatibleSdkVersion 3
